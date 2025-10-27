@@ -4,9 +4,12 @@ let navSv = document.querySelector("nav");
 window.onscroll = function () {
   if (window.scrollY >= 600) {
     scrollIcon.classList.add("show");
-    navSv.style.backgroundColor = "#050547";
   } else {
     scrollIcon.classList.remove("show");
+  }
+  if (window.scrollY >= 100) {
+    navSv.style.backgroundColor = "#212832";
+  } else {
     navSv.style.backgroundColor = "transparent";
   }
 };
