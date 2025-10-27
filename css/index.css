@@ -208,18 +208,13 @@ nav {
 
 /* start services */
 .services {
-
-
   .container {
 
-    .text {
 
-      p {
-        color: hsl(0, 0%, 75%);
-        font-family: var(--main-font);
-        margin-top: 80px;
-      }
-
+    p {
+      color: hsl(0, 0%, 75%);
+      font-family: var(--main-font);
+      margin-top: 80px;
     }
 
     .row {
