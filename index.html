@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/startupVibeAnimation.css">
+  <link rel="stylesheet" href="css/normalize.css">
 
   <!-- aos library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -26,7 +28,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg p-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+  <nav class="navbar navbar-expand-lg p-3" data-anim="fade-down">
     <div class="container">
       <a class="navbar-brand" href="index.html"><img src="image/logo-nav.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -48,20 +50,19 @@
     <div class="container">
       <div class="row d-flex justify-content-between align-items-center">
         <div class="col-12 col-md-12 col-lg-6">
-          <div class="text" data-aos="fade-right" data-aos-duration="700" data-aos-easing="linear">
+          <div class="text" data-anim="fade-right">
             <h1>startup<br><span class="sec-color">vibe</span></h1>
-            <div class="buttons">
-              <!-- <a href="#projects" class="project">Projects</a>
-              <a href="#about" class="about">About us</a> -->
-            <p>
-              Startup Vibe is a creative web design and development company focused on building strong and modern online identities. We turn ideas into professional websites that combine elegant design with powerful functionality
-            </p>
+            <div class="p">
+              <p>
+                Startup Vibe is a creative web design and development company focused on building strong and modern
+                online identities. We turn ideas into professional websites that combine elegant design with powerful
+                functionality
+              </p>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-12 col-lg-6">
-          <div class="main-image d-flex justify-content-center" data-aos="fade-left" data-aos-easing="linear"
-            data-aos-duration="700">
+          <div class="main-image d-flex justify-content-center" data-anim="fade-left">
             <img class="" style="width: 60%;" src="image/main-sec.svg" alt="">
           </div>
         </div>
@@ -70,12 +71,18 @@
     <div id="bg" class="net"></div>
   </section>
 
-
-  <section id="about" class="about my-5 py-5" data-aos="fade-up" data-aos-duration="2000">
+  <section id="about" class="about my-5 py-5" data-anim="fade-up">
+    <div class="ocean">
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
     <div class="container   align-content-center">
-      <h2 class="text-center fw-bold mb-5" data-aos="fade-up" data-aos-duration="2000">About <span
-          class="sec-color">Us</span></h2>
-      <div class="row d-flex justify-content-center align-items-center g-3" data-aos="fade-up" data-aos-duration="2000">
+      <div class="content">
+        <h2>About Us</h2>
+        <h2>About Us</h2>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center g-3">
         <div class="image col-12 col-md-12 col-lg-6">
           <img class="" src="image/about.svg" alt="">
         </div>
@@ -97,10 +104,13 @@
   <section id="services" class="services  my-5 py-5">
     <div class="container d-flex justify-content-center align-items-center flex-column">
       <div class="text w-50 text-center">
-        <h2 class="fw-bold" data-aos="fade-up" data-aos-duration="2000">Our <span class="sec-color">Services</span></h2>
-        <p class="mb-5" data-aos="fade-up" data-aos-duration="2000">Your digital presence starts here </p>
+        <div class="content">
+          <h2>Services</h2>
+          <h2>Services</h2>
+          <p class="" data-anim="fade-up">Your digital presence starts here </p>
+        </div>
       </div>
-      <div class="row row-gap-3" data-aos="fade-up" data-aos-duration="2000">
+      <div class="row row-gap-3" data-anim="fade-up">
         <div class="col-12 col-md-6 col-lg-6">
           <div class="card">
             <h3><i class="fa-solid fa-code"></i> Web Design & Development
@@ -134,64 +144,47 @@
 
   <section id="projects" class="projects  my-5 py-5">
     <div class="container">
-      <h2 class="fw-bold mb-5" data-aos="fade-up" data-aos-duration="2000">Projects <span class="sec-color">SV</span>
-      </h2>
-      <div class="row  g-4" data-aos="fade-up" data-aos-duration="2000">
-        <div class="col-12 col-md-6 col-lg-3"  id="proj" >
+      <div class="content">
+        <h2>Projects SV</h2>
+        <h2>Projects SV</h2>
+      </div>
+      <div class="row  g-4" data-anim="fade-up">
+        <div class="col-12 col-md-6 col-lg-6" id="proj">
           <div class="card">
-            <img class="pro_img" src="image/Marketing-Studio.PNG" alt="">
-            <div class="overlay">
-              <h2 class="pname">Marketing Studio</h2>
-              <p class="discription">Market Build Studio is a dynamic,</p>
-              <a href="https://startupvibe.github.io/Marketing-Studio/"><i class="fa-solid fa-eye"></i> Demo</a>
-            </div>
+            <img class="pro_img" src="image/Marketing.png" alt="">
+            <a href="https://marketbuildstudio.com/"><i class="fa-solid fa-eye"></i> Demo</a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3" id="proj" >
+        <div class="col-12 col-md-6 col-lg-6" id="proj">
           <div class="card">
-            <img class="pro_img" src="image/mukhwara.PNG" alt="">
-            <div class="overlay">
-              <h2 class="pname">mukhawara</h2>
-              <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto,</p>
-              <a href="https://startupvibe.github.io/mukhawara/"><i class="fa-solid fa-eye"></i> Demo</a>
-            </div>
+            <img class="pro_img" src="image/mukhawara.png" alt="">
+            <a href="https://startupvibe.github.io/mukhawara/"><i class="fa-solid fa-eye"></i> Demo</a>
           </div>
         </div>
-        
-        <div class="col-12 col-md-6 col-lg-3" id="proj" >
-          <div class="card">
-            <img class="pro_img" src="image/Reveal-Realstate.png" alt="">
-            <div class="overlay">
-              <h2 class="pname">Reveal Realstate</h2>
-              <p class="discription">Your ideal partner for unparalleled real estate solutions.</p>
-              <a href="https://ahmed-ali0.github.io/Reveal-realestate/"><i class="fa-solid fa-eye"></i> Demo</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3" id="proj" >
+
+        <div class="col-12 col-md-6 col-lg-6" id="proj">
           <div class="card">
             <img class="pro_img" src="image/Zenzone.PNG" alt="">
-            <div class="overlay">
-              <h2 class="pname">Zenzone</h2>
-              <p class="discription">We provide workspaces, training halls, and workshops with online booking facilities.</p>
-              <a href="https://zenzonehub.com"><i class="fa-solid fa-eye"></i> Demo</a>
-            </div>
+            <a href="https://zenzonehub.com"><i class="fa-solid fa-eye"></i> Demo</a>
           </div>
         </div>
-        
+
   </section>
 
   <section id="contact" class="contact  my-5 py-5">
     <div class="container">
       <div class="row d-flex justify-content-between align-items-center">
         <div class="col-12 col-md-12 col-lg-6">
-          <div class="le-he-im" data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-sine">
-            <h2 class="fw-bold">Contact <span class="sec-color">Us</span></h2>
+          <div class="le-he-im" data-anim="fade-right">
+            <div class="content">
+              <h2>Contact Us</h2>
+              <h2>Contact Us</h2>
+            </div>
             <img class="" style="width: 60%;" src="image/Group 2355.svg" alt="">
           </div>
         </div>
         <div class="col-12 col-md-12 col-lg-6">
-          <form action="" data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease-in-sine">
+          <form action="" data-anim="fade-left">
             <div class="inputs d-flex gap-3">
               <div class="name w-50">
                 <label for="">Your name</label>
@@ -210,7 +203,6 @@
       </div>
     </div>
   </section>
-
   <footer>
     <div class="container">
       <div class="social">
@@ -225,6 +217,7 @@
   <i class="scrolly fa-solid fa-arrow-up"></i>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
+  <script src="js/startupVibeAnimation.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
@@ -251,7 +244,4 @@
     })
   </script>
 </body>
-0x180048
-
-
 </html>
