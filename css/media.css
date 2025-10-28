@@ -21,6 +21,10 @@
     .net {
       height: 115vh;
     }
+
+    .main-image {
+      transform: translateY(-90px) !important;
+    }
   }
 
 
